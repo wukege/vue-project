@@ -152,7 +152,7 @@ new HtmlWebpackPlugin({
    //src/config/env.js
    let baseUrl = '';
    if (process.env.NODE_ENV == 'development') { //开发环境 dev
-     //baseUrl = 'http://192.168.1.127:8083/YAJApi/';
+     //baseUrl = 'http://fly.pgyspace.com/api/';
    } else if (process.env.NODE_ENV == 'production') {//生产改动点
      // baseUrl = 'http://fly.pgyspace.com/api/';
    }
